@@ -8,6 +8,7 @@ import Admin from './Pages/Admin.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import Error from './components/Error.jsx'
 import Chat from './components/Chat.jsx'
+import Settings from './components/Settings.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/D/chat',
         element: <Chat />
+      },
+      {
+        path: '/D/settings',
+        element: <Settings />
       }
     ]
 
