@@ -1,3 +1,5 @@
+import '../App.css'
+
 import { Link, Outlet } from "react-router-dom"
 
 const Admin = ()=>{
@@ -8,7 +10,7 @@ const Admin = ()=>{
         <>
             <div className="container-fluid">
             <div className="row">
-                <div className="col-lg-2 shadow-sm bg-red-200">
+                <div className="col-lg-2 shadow-sm side-panel-color">
                     <div className="sidepanel h-screen px-3 pt-3">
                         <div className="">
                             <div className="dashboard">
