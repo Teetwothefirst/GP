@@ -13,7 +13,7 @@ const Chat = () =>{
 					<div class="container">
 						<div class="inside">
 							<div class="nav nav-tab menu">
-								<button class="btn"><img class="avatar-xl" src="dist/img/avatars/avatar-male-1.jpg" alt="avatar" /></button>
+								<button class="btn"><img class="avatar-xl" src="../dist/img/avatars/avatar-male-1.jpg" alt="avatar" /></button>
 								<a href="#members" data-toggle="tab"><i class="material-icons">account_circle</i></a>
 								<a href="#discussions" data-toggle="tab" class="active"><i class="material-icons active">chat_bubble_outline</i></a>
 								<a href="#notifications" data-toggle="tab" class="f-grow1"><i class="material-icons">notifications_none</i></a>
@@ -48,7 +48,7 @@ const Chat = () =>{
 										<h1>Contacts</h1>
 										<div class="list-group" id="contacts" role="tablist">
 											<a href="#" class="filterMembers all online contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -61,7 +61,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all online contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -74,7 +74,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all online contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -87,7 +87,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all online contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -100,7 +100,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all online contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Harmony" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Harmony" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -113,7 +113,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all offline contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -126,7 +126,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all offline contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -139,7 +139,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all offline contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Ryan" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Ryan" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -152,7 +152,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterMembers all offline contact" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Mildred" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Mildred" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -186,7 +186,7 @@ const Chat = () =>{
 										<h1>Discussions</h1>
 										<div class="list-group" id="chats" role="tablist">
 											<a href="#list-chat" class="filterDiscussions all unread single active" id="list-chat-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -200,7 +200,7 @@ const Chat = () =>{
 												</div>
 											</a>									
 											<a href="#list-empty" class="filterDiscussions all unread single" id="list-empty-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -214,7 +214,7 @@ const Chat = () =>{
 												</div>
 											</a>									
 											<a href="#list-chat" class="filterDiscussions all read single" id="list-chat-list2" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -225,7 +225,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list2" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -236,7 +236,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-chat" class="filterDiscussions all read single" id="list-chat-list3" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Harmony" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Harmony" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -247,7 +247,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list3" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -258,7 +258,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-request" class="filterDiscussions all unread single" id="list-request-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -272,7 +272,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list4" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Ryan" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Ryan" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -283,7 +283,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#list-chat" class="filterDiscussions all unread single" id="list-chat-list5" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Mildred" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Mildred" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -317,7 +317,7 @@ const Chat = () =>{
 										<h1>Notifications</h1>
 										<div class="list-group" id="alerts" role="tablist">
 											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -327,7 +327,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -337,7 +337,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -347,7 +347,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -357,7 +357,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -367,7 +367,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -377,7 +377,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -387,7 +387,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -397,7 +397,7 @@ const Chat = () =>{
 												</div>
 											</a>
 											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar" />
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -414,7 +414,7 @@ const Chat = () =>{
 								<div class="tab-pane fade" id="settings">			
 									<div class="settings">
 										<div class="profile">
-											<img class="avatar-xl" src="dist/img/avatars/avatar-male-1.jpg" alt="avatar" />
+											<img class="avatar-xl" src="../dist/img/avatars/avatar-male-1.jpg" alt="avatar" />
 											<h1><a href="#">Michael Knudsen</a></h1>
 											<span>Helena, Montana</span>
 											<div class="stats">
@@ -448,7 +448,7 @@ const Chat = () =>{
 													<div class="content">
 														<div class="upload">
 															<div class="data">
-																<img class="avatar-xl" src="dist/img/avatars/avatar-male-1.jpg" alt="image" />
+																<img class="avatar-xl" src="../dist/img/avatars/avatar-male-1.jpg" alt="image" />
 																<label>
 																	<input type="file" />
 																	<span class="btn button">Upload avatar</span>
@@ -604,7 +604,7 @@ const Chat = () =>{
 												<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionSettings">
 													<div class="content">
 														<div class="app">
-															<img src="dist/img/integrations/slack.svg" alt="app" />
+															<img src="../dist/img/integrations/slack.svg" alt="app" />
 															<div class="permissions">
 																<h5>Skrill</h5>
 																<p>Read, Write, Comment</p>
@@ -615,7 +615,7 @@ const Chat = () =>{
 															</label>
 														</div>
 														<div class="app">
-															<img src="dist/img/integrations/dropbox.svg" alt="app" />
+															<img src="../dist/img/integrations/dropbox.svg" alt="app" />
 															<div class="permissions">
 																<h5>Dropbox</h5>
 																<p>Read, Write, Upload</p>
@@ -626,7 +626,7 @@ const Chat = () =>{
 															</label>
 														</div>
 														<div class="app">
-															<img src="dist/img/integrations/drive.svg" alt="app" />
+															<img src="../dist/img/integrations/drive.svg" alt="app" />
 															<div class="permissions">
 																<h5>Google Drive</h5>
 																<p>No permissions set</p>
@@ -637,7 +637,7 @@ const Chat = () =>{
 															</label>
 														</div>
 														<div class="app">
-															<img src="dist/img/integrations/trello.svg" alt="app" />
+															<img src="../dist/img/integrations/trello.svg" alt="app" />
 															<div class="permissions">
 																<h5>Trello</h5>
 																<p>No permissions set</p>
@@ -812,7 +812,7 @@ const Chat = () =>{
 										<label for="user">Username:</label>
 										<input type="text" class="form-control" id="user" placeholder="Add recipient..." required />
 										<div class="user" id="contact">
-											<img class="avatar-sm" src="dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
+											<img class="avatar-sm" src="../dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
 											<h5>Keith Morris</h5>
 											<button class="btn"><i class="material-icons">close</i></button>
 										</div>
@@ -842,7 +842,7 @@ const Chat = () =>{
 										<label for="participant">Recipient:</label>
 										<input type="text" class="form-control" id="participant" placeholder="Add recipient..." required />
 										<div class="user" id="recipient">
-											<img class="avatar-sm" src="dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
+											<img class="avatar-sm" src="../dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
 											<h5>Keith Morris</h5>
 											<button class="btn"><i class="material-icons">close</i></button>
 										</div>
@@ -872,7 +872,7 @@ const Chat = () =>{
 									<div class="container">
 										<div class="col-md-12">
 											<div class="inside">
-												<a href="#"><img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" /></a>
+												<a href="#"><img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" /></a>
 												<div class="status">
 													<i class="material-icons online">fiber_manual_record</i>
 												</div>
@@ -907,7 +907,7 @@ const Chat = () =>{
 												<hr />
 											</div>
 											<div class="message">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="text-main">
 													<div class="text-group">
 														<div class="text">
@@ -928,7 +928,7 @@ const Chat = () =>{
 												</div>
 											</div>
 											<div class="message">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="text-main">
 													<div class="text-group">
 														<div class="text">
@@ -954,7 +954,7 @@ const Chat = () =>{
 												</div>
 											</div>
 											<div class="message">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="text-main">
 													<div class="text-group">
 														<div class="text">
@@ -980,7 +980,7 @@ const Chat = () =>{
 												</div>
 											</div>
 											<div class="message">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="text-main">
 													<div class="text-group">
 														<div class="text">
@@ -1007,7 +1007,7 @@ const Chat = () =>{
 												</div>
 											</div>
 											<div class="message">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
+												<img class="avatar-md" src="../dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar" />
 												<div class="text-main">
 													<div class="text-group">
 														<div class="text typing">
@@ -1048,7 +1048,7 @@ const Chat = () =>{
 											<div class="inside">
 												<div class="panel">
 													<div class="participant">
-														<img class="avatar-xxl" src="dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
+														<img class="avatar-xxl" src="../dist/img/avatars/avatar-female-5.jpg" alt="avatar" />
 														<span>Connecting</span>
 													</div>							
 													<div class="options">
@@ -1076,7 +1076,7 @@ const Chat = () =>{
 									<div class="container">
 										<div class="col-md-12">
 											<div class="inside">
-												<a href="#"><img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" /></a>
+												<a href="#"><img class="avatar-md" src="../dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar" /></a>
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -1137,7 +1137,7 @@ const Chat = () =>{
 											<div class="inside">
 												<div class="panel">
 													<div class="participant">
-														<img class="avatar-xxl" src="dist/img/avatars/avatar-female-2.jpg" alt="avatar" />
+														<img class="avatar-xxl" src="../dist/img/avatars/avatar-female-2.jpg" alt="avatar" />
 														<span>Connecting</span>
 													</div>							
 													<div class="options">
@@ -1165,7 +1165,7 @@ const Chat = () =>{
 									<div class="container">
 										<div class="col-md-12">
 											<div class="inside">
-												<a href="#"><img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" /></a>
+												<a href="#"><img class="avatar-md" src="../dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" /></a>
 												<div class="status">
 													<i class="material-icons offline">fiber_manual_record</i>
 												</div>
@@ -1195,7 +1195,7 @@ const Chat = () =>{
 									<div class="container">
 										<div class="col-md-12">
 											<div class="no-messages request">
-												<a href="#"><img class="avatar-xl" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" /></a>
+												<a href="#"><img class="avatar-xl" src="../dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar" /></a>
 												<h5>Louis Martinez would like to add you as a contact. <span>Hi Keith, I'd like to add you as a contact.</span></h5>
 												<div class="options">
 													<button class="btn button"><i class="material-icons">check</i></button>

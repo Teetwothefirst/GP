@@ -46,61 +46,77 @@ const Dashboard = ()=>{
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-6 col-xl-3">
-                            <div className="border rounded shadow-sm px-3 py-2">
-                                <div className="taskHeader">
-                                    <h5 className="text-primary">Assigned</h5>
-                                </div>
-                                <div className="taskdescription">
-                                    <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
-                                    </p>
-                                </div>
-                                <div className="taskfooter">
-                                    <div className="flex justify-between">
-                                        <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
-                                        <small> Joel</small>
+                            </div>
+                            <div className="col-6 col-xl-3">
+                                <div className="border rounded shadow-sm px-3 py-2">
+                                    <div className="taskHeader">
+                                        <h5 className="text-warning">Pending</h5>
+                                    </div>
+                                    <div className="taskdescription">
+                                        <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
+                                        </p>
+                                    </div>
+                                    <div className="taskfooter">
+                                        <div className="flex justify-between">
+                                            <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
+                                            <small> Joel</small>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-6 col-xl-3">
-                            <div className="border rounded shadow-sm px-3 py-2">
-                                <div className="taskHeader">
-                                    <h5 className="text-primary">Assigned</h5>
-                                </div>
-                                <div className="taskdescription">
-                                    <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
-                                    </p>
-                                </div>
-                                <div className="taskfooter">
-                                    <div className="flex justify-between">
-                                        <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
-                                        <small> Joel</small>
+                            <div className="col-6 col-xl-3">
+                                <div className="border rounded shadow-sm px-3 py-2">
+                                    <div className="taskHeader">
+                                        <h5 className="text-danger">Missed</h5>
+                                    </div>
+                                    <div className="taskdescription">
+                                        <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
+                                        </p>
+                                    </div>
+                                    <div className="taskfooter">
+                                        <div className="flex justify-between">
+                                            <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
+                                            <small> Joel</small>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-6 col-xl-3">
-                            <div className="border rounded shadow-sm px-3 py-2">
-                                <div className="taskHeader">
-                                    <h5 className="text-primary">Assigned</h5>
+                            <div className="col-6 col-xl-3">
+                                <div className="border rounded shadow-sm px-3 py-2">
+                                    <div className="taskHeader">
+                                        <h5 className="text-success">Done</h5>
+                                    </div>
+                                    <div className="taskdescription">
+                                        <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
+                                        </p>
+                                    </div>
+                                    <div className="taskfooter">
+                                        <div className="flex justify-between">
+                                            <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
+                                            <small> Joel</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="taskdescription">
-                                    <p className="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Tenetur maxime laudantium non deserunt consequatur delectus architecto numquam? 
-                                    </p>
-                                </div>
-                                <div className="taskfooter">
-                                    <div className="flex justify-between">
-                                        <small id="timer" onLoad={dateCheck()}>17/12/2025</small>
-                                        <small> Joel</small>
+                            </div> 
+
+                            <div className="col-12 col-lg-12 mt-3">
+                                <div className="border rounded shadow-sm px-3 py-2">
+                                    <div className="workrateHeader">
+                                        <h6>Work/Time Rate</h6>
+                                    </div>
+                                    <div className="workratecontent">
+                                        <div className="content">
+                                            content
+                                        </div>
+                                    </div>
+                                    <div className="workratefooter">
+                                        <div className="flex justify-center">------EAL corp 2025---------</div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
                             </div>    
                         </div>                      
                     </div>
