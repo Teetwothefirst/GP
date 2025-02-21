@@ -18,3 +18,8 @@ Done - Acknowledged, And Done. - Color - Green
 
 
 3. Settings
+
+Keep myself Accountable
+A. Working on the Sign up Logic
+B. Working on the Chart to show on the Frontend
+C. 
