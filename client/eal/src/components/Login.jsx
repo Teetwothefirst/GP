@@ -17,7 +17,8 @@ const Login = ()=>{
 							<div className="col-md-12 flex justify-center">
 								<div className="content">
                                     <div className="flex justify-center">
-                                        <img src="./dist/img/EAL.jpg" alt="" width="50px"/> 
+                                        {/* <img src="./dist/img/EAL.jpg" alt="" width="50px"/>  */}
+										<img src="src/assets/EAL.jpg" alt="" width="50px"/>
                                     </div>
 									
 									{/* <!-- <h1>Sign in to Swipe</h1> --> */}

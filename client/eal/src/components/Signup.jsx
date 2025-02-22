@@ -16,7 +16,8 @@ const Signup = ()=>{
 						<div className="container">
 							<div className="col-md-12">
 								<div className="content">
-									<img src="./dist/img/EAL.jpg" alt="" width="50px" /> 
+									{/* <img src="./dist/img/EAL.jpg" alt="" width="50px" />  */}
+									<img src="src/assets/EAL.jpg" alt="" width="50px"/>
 									<h1>Create Account</h1>
 									<form className="signup">
 										<div className="form-parent">
