@@ -23,3 +23,10 @@ Keep myself Accountable
 A. Working on the Sign up Logic
 B. Working on the Chart to show on the Frontend
 C. 
+
+
+4. Future Enhancements
+AI-powered task recommendations.
+Video and voice call support within the chat.
+Advanced analytics and reporting.
+This document serves as a roadmap for the project's development, ensuring clarity and structured implementation.
